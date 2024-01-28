@@ -1,0 +1,177 @@
+/*body{
+   background: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.7)), url("wp6196931.jpg");
+    background-image: url("wp6196931.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}*/
+
+.img1{
+    height:1rem;
+    width:1rem;
+}
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Styling for the navigation menu */
+  nav {
+    background-color: #db7093;
+    color: #fff;
+    padding: 10px;
+   
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  li {
+    margin-right: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* Styling for the search bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Align to the right */
+  }
+
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .search-button {
+    padding: 8px 12px;
+    background-color: #ffb6c1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+.search-button:hover{
+  box-shadow:0px 0px 5px  #9e1026,
+             0px 0px 30px  #9e1026,
+             0px 0px 90px  #9e1026;
+}
+
+
+
+
+a:hover {
+    color: #9e1026;
+    font-size: larger;
+  }
+.search-button:hover{
+    background-color: #9e1026;
+}
+.card{
+    background-color:white;
+    border-radius:1rem ;
+    width:150px;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    flex: 1;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.card-container{
+    display: inline-block;
+    flex-wrap:wrap ;
+   
+}
+.c1{
+    border-radius:1rem ;
+    width: 100%;
+    height:auto;
+    display: flex;
+
+    object-fit: contain;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow:0px 0px 5px  #9e1026,
+             0px 0px 30px  #9e1026,
+             0px 0px 90px  #9e1026;
+
+}
+
+@media screen and (max-width: 600px){
+  .r{
+       display:none;
+     }
+}
+.sale{
+  height:200px;
+  width:800px;
+  border-radius:2rem;
+  background-color: #db7093;
+  margin-top: 3rem;
+  margin-left:8rem;
+}
+.heart:hover{
+  transform: scale(1.2);
+  box-shadow:0px 0px 5px  #9e1026,
+           0px 0px 30px  #9e1026,
+           0px 0px 90px  #9e1026;
+}
+.footer{
+  height:300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  height:30%;
+  width:90%;
+  border-top:  1px solid black;
+}
+.heading{
+  font-size: 50px;
+  color: #333; /* Set your desired text color */
+  background: linear-gradient(45deg, #9c1865, #840836);
+  -webkit-background-clip: text; /* For older browsers */
+  color: transparent; 
+
+}
+
+
+h1{
+    font-size: 50px;
+    color: #333; /* Set your desired text color */
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text; /* For older browsers */
+    color: transparent; /* Hide the original text color */
+}
+.info
+{flex-wrap:wrap;
+  font-weight:400;
+font-size: 30px;
+color: #333; /* Set your desired text color */
+background: linear-gradient(45deg, #ae03a8, #420130);
+-webkit-background-clip: text; /* For older browsers */
+color: transparent; /* Hide the original text color */
+}
+.card-title{
+  font-size:20px;
+  color: #333; /* Set your desired text color */
+  background: linear-gradient(45deg, #092490, #2e96e5);
+  -webkit-background-clip: text; /* For older browsers */
+  color: transparent; 
+
+}
